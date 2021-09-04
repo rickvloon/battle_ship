@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Battleships</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <img src="img/header.png" alt="Battleship logo">
+    <button id="axis-button" value="x">X - Axis</button>
+  </header>
+  <main>
+    <div class="board-container">
+      <div class="board" id="player-board">
+
+      </div>
+      <div class="board" id="computer-board">
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="ship-container">
+        <div class="ship" draggable="true" length="5">
+          <div class="square-ship-place"></div>
+          <div class="square-ship-place"></div>
+          <div class="square-ship-place"></div>
+          <div class="square-ship-place"></div>
+          <div class="square-ship-place"></div>
+        </div>
+        <div class="ship" draggable="true" length="4">
+          <div class="square-ship-place"></div>
+          <div class="square-ship-place"></div>
+          <div class="square-ship-place"></div>
+          <div class="square-ship-place"></div>
+        </div>
+        <div class="ship" draggable="true" length="3">
+          <div class="square-ship-place"></div>
+          <div class="square-ship-place"></div>
+          <div class="square-ship-place"></div>
+        </div>
+        <div class="ship" draggable="true" length="3">
+          <div class="square-ship-place"></div>
+          <div class="square-ship-place"></div>
+          <div class="square-ship-place"></div>
+        </div>
+        <div class="ship" draggable="true" length="2">
+          <div class="square-ship-place"></div>
+          <div class="square-ship-place"></div>
+        </div>
+      </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
